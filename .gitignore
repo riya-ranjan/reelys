@@ -1,3 +1,9 @@
 .PLAN.md
 CLAUDE.md
 docs/build_plan.md
+
+# Python venvs
+tools/reely-env/
+
+# macOS
+.DS_Store
