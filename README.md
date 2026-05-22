@@ -17,12 +17,10 @@ For reproducibility, here are the exact versions used. All sketches target the *
 
 **Libraries** (install via Arduino IDE → Tools → Manage Libraries…):
 
-  * **Seeed Arduino LSM6DS3** — v2.0.5. Driver for the onboard LSM6DS3TR-C IMU. Used by all three sketches (`imu_serial`, `imu_ble`, `imu_ble_midi`).
+  * **Seeed Arduino LSM6DS3** — v2.0.5. Driver for the onboard LSM6DS3TR-C IMU.
     https://github.com/Seeed-Studio/Seeed_Arduino_LSM6DS3
-  * **MIDI Library** by Francois Best / lathoub (FortySevenEffects) — v5.0.2. Wraps Bluefruit's `BLEMidi` transport so the standard `MIDI.sendControlChange(...)` API works over BLE. Used only by `imu_ble_midi`.
-    Listed in Library Manager as **"MIDI Library"** by lathoub — "FortySevenEffects" is the GitHub org, not the Library Manager name.
-    https://github.com/FortySevenEffects/arduino_midi_library
-
+  * **MIDI Library** by Francois Best / lathoub — v5.0.2. Wraps Bluefruit's `BLEMidi` transport so the standard `MIDI.sendControlChange(...)` API works over BLE.
+  
 **Python (laptop side, debug listener only)** — pinned in `requirements.txt`:
 
   * **bleak** ≥0.21. Cross-platform BLE client used by `tools/ble_listener.py` to read the custom characteristic exposed by `imu_ble`. Install with `pip install -r requirements.txt`.
