@@ -4,7 +4,7 @@ Reelys are a DIY sonified, light up heely shoe, designed from scratch as part of
 
 ## Hardware
 
-## Arduino Libraries
+## Arduino and Python Libraries
 
 For reproducibility, here are the exact versions used. All sketches target the **Seeed XIAO nRF52840 Sense** board.
 
@@ -20,7 +20,7 @@ For reproducibility, here are the exact versions used. All sketches target the *
   * **Seeed Arduino LSM6DS3** — v2.0.5. Driver for the onboard LSM6DS3TR-C IMU.
     https://github.com/Seeed-Studio/Seeed_Arduino_LSM6DS3
   * **MIDI Library** by Francois Best / lathoub — v5.0.2. Wraps Bluefruit's `BLEMidi` transport so the standard `MIDI.sendControlChange(...)` API works over BLE.
-  
+
 **Python (laptop side, debug listener only)** — pinned in `requirements.txt`:
 
   * **bleak** ≥0.21. Cross-platform BLE client used by `tools/ble_listener.py` to read the custom characteristic exposed by `imu_ble`. Install with `pip install -r requirements.txt`.
