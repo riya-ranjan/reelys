@@ -31,7 +31,7 @@ This project uses Arduino code for obtaining IMU readings from the Seeed boards,
 
 **Python (laptop side, debug listener only)** — pinned in `requirements.txt`:
 
-  * **bleak** ≥0.21. Cross-platform BLE client used by `tools/ble_listener.py` to read the custom characteristic exposed by `imu_ble`. Install with `pip install -r requirements.txt`.
+  * **bleak** ≥0.21. If you are using `tools/ble_listener.py` to debug bluetooth connections to your Reelys, install with `pip install -r requirements.txt`.
 
 ## Usage
 
