@@ -43,7 +43,8 @@ as `Reelys-L` and `Reelys-R` bluetooth MIDI devices. On Mac, you can connect to 
 the Audio Midi Setup app and opening up bluetooth connections in the MIDI Studio. 
 
 Once your bluetooth connection is set up, you can launch the `max_patches/wee_oo.maxpat` patch and hear
-sound from both shoes. Feel free to create your own patches for customized sound design! 
+sound from both shoes. You may need to recalibrate the patch to the orientation of your Seeed; mine is 
+calibrated to changes in z acceleration. Feel free to create your own patches for customized sound design! 
 
 To recharge your batteries, make sure they are connected to your Seeed chip and plug your Seeed chip
 into your laptop via the USB-C connection.
