@@ -96,7 +96,7 @@
 
 // Flip to 1 before flashing the right shoe; flip back to 0 before flashing
 // the left shoe. See the "Shoe identity" block in the header comment.
-#define REELYS_SHOE_RIGHT 0
+#define REELYS_SHOE_RIGHT 1
 
 #if REELYS_SHOE_RIGHT
   static const char*   REELYS_DEVICE_NAME = "Reelys-R";

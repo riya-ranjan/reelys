@@ -7,3 +7,8 @@ tools/reely-env/
 
 # macOS
 .DS_Store
+
+test_sketches/neopixel_walk/
+
+# Abandoned / experimental Max patches
+max_patches/work_in_progress/
