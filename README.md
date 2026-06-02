@@ -2,6 +2,8 @@
 
 Reelys are a DIY sonified, light up heely shoe, designed from scratch as part of a capstone project for Stanford CCRMA's MUSIC250A: Physical Interaction Design for Music. 
 
+![REELYS](reelys.jpg)
+
 ## Hardware/Electronics
   * [Seeed XIAO nRF52840 Sense x2](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html?srsltid=AfmBOooHCspDNu-aBo0t7IGdZl8osGEz4bAfPdIX-u2gH9hLNeErv5W-)
   * [Rechargeable Lithium Polymer Battery x2](https://ydlbattery.com/products/ydl-3-7v-150mah-352025-rechargeable-lipo-battery-with-jst-connector?currency=USD&country=US&variant=42093573898393&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=a5847882d354&gad_source=1&gad_campaignid=17496818825&gbraid=0AAAAABXU5XFX8YsHwtyEQcUapKJj1gwH-&gclid=CjwKCAjwidXQBhAZEiwA4egw6I_fk3aA2wGGKMzpjCPC4mmHwymF3dYepuMpQYyx-4ausbMWo17mghoC_6oQAvD_BwE)
